@@ -20,6 +20,10 @@ The following topics will be covered in this course:
 * Transpiling F# to JavaScript and writing client-server HTML5 applications in F#
 * Functional programming techniques in C#
 
+## Recommended prerequisites
+
+Bachelor in computer science (or similar) is recommended, although not required. The course is independent of the rest of the computer science curriculum, but familiarity with programming languages and techniques is required.
+
 
 ## Staff
 
