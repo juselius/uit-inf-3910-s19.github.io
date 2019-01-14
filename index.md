@@ -28,7 +28,7 @@ nature, focusing on application in F#.
 Refer to the lecture plan, and information in Slack for which room is used when.
 
 ### Staff
-* **Lecturer** Jonas Juselius
+* **Lecturer**: Dr. Jonas Juselius
 * **Responsible Professor:** Lars Ailo Bongo
 * **Teaching assistant** ?
 
