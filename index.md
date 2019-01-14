@@ -2,64 +2,127 @@
 layout: default
 ---
 
-## Course contents
+Applied functional programming course taught at Department of Informatics, UiT
+The Arctic University of Norway.
 
-This seminar covers the theory and principles of functional programming, using F# and .NET Core to demonstrate concepts. The aim is to introduce the theoretical foundations, while focusing on the practical application of functional programming techniques and their use in the software industry. 
+## Administrative information
 
-The following topics will be covered in this course:
-* Perspective: History and development of programming languages
-* Introduction to lambda calculus
-* Introduction to type theory
-* Introduction to functional programming in F#
-* Pure functions and referential transparency
-* Abstraction: Higher-order functions, partial application and currying
-* Designing with types
-* Patterns: Functors, applicatives and monads
-* Embedded domain-specific languages: HTML combinators, parser combinators
-* Functional reactive programming and the Model-View-Update architecture
-* Transpiling F# to JavaScript and writing client-server HTML5 applications in F#
-* Functional programming techniques in C#
+Course objectives and other [administrative information](https://uit.no/utdanning/emner/emne/605435/inf-3910-5)
 
-## Recommended prerequisites
+The GitHub organization for this course is [uit-inf-3910-s19](https://github.com/uit-inf-3910-s19)
 
-Bachelor in computer science (or similar) is recommended, although not required. The course is independent of the rest of the computer science curriculum, but familiarity with programming languages and techniques is required.
+We have a [Slack team](https://uit-inf-3910-s19.slack.com/). Join us and chat about the course and the assignments.
 
+Please ruminate on [this page about citation, plagiarism, &c. from the university](https://uit.no/om/enhet/artikkel?p_document_id=473719). Norwegian only.
 
-## Staff
+### We have the following rooms and hours:
 
-* **Lecturer:** Jonas Juselius
+* Monday 10:15-12:00 Teknobygget 2.019AUD
+* Wednesday 11:15-12:00 REALF B203 (Lille Aud)
+* Thursday 8:15-10:00 REALF A051
+
+The Monday's lectures will be devoted to more theoretical aspects of functional
+programming. The lectures on Wednesday and Thursday will be of a more practical
+nature, focusing on application in F#.
+
+Refer to the lecture plan, and information in Slack for which room is used when.
+
+### Staff
+* **Lecturer** Jonas Juselius
 * **Responsible Professor:** Lars Ailo Bongo
+* **Teaching assistant** ?
 
-## Relevance
 
-Functional programming was conceived in the 1930ies and born in the 1950ies, but has been mostly of academic interest until fairly recently. The advent of multi-core computers brought to light all the problems associated with parallel and asynchronous computing. Together with a general growth of complexity in software systems, this has sparked a renewed and intense interest in functional programming techniques in the software industry. 
+## Lecture plan
 
-## Learning outcomes
+### Introduction (Monday 14/1)
 
-A general educational aim of the seminar will be to:
-* Expose students to state-of-the-art topics in computer science
-* Help the students to develop independent learning
-* Broaden students' understanding of computer science by introducing additional special topics into the curriculum.
+* Historical overview
+* Imperative and decalarative programming
+* Complexity
+* The perils of mutable state
+* Static and dynamic typing
+* Abstraction
+* Data representation
+* Composition
 
-Detailed learning outcomes for this seminar is:
+### Functions
 
-Knowledge – the student has:
-* Knowledge of lambda calculus and its significance in functional programming.
-* An understanding of type systems, type inference, type safety and how types help express valid programs and disallow invalid programs.
-* Deep insight into the functional programming paradigm, and how it differs from the imperative and object-oriented paradigms.
-* An understanding of how functions and types can be used as a fundamental unit of abstraction.
-* Awareness of the detrimental consequences of arbitrary, ad hoc usage of side effects
-* Knowledge of functional reactive programming.
-* Insight into the use of functional programming in the software industry.
+* Relations vs. functions
+* Introduction to Lambda calculus
+* Binding and environments
+* Pure functions: Expressions and statements
+* Referential transparency
+* Composition
+* Higher-order functions
+* Currying and partial application
+* Recursion and tail call optimization
 
-Skills – the student has / can:
-* Write advanced software applications in F#.
-* Write web-based user interfaces using reactive programming techniques in F#.
-* Use interactive programming techniques for prototyping and testing ideas.
-* Design and structure programs solely using functions
-* Avoid using mutable state and I/O in the large body of a program.
+### Introduction to F\# on .NET Core
 
-General competence – the student has / can:
-* Ability to read, understand and discuss relevant literature in the field.
-* A broader understanding and appreciation of programming languages and paradigms in general
-* Apply functional thinking and techniques in other branches of programming.
+* Order of declarations and files
+* Mutual recursion: types, functions and modules
+* Pattern matching
+* Active patterns
+* Mutable variables
+
+### Types and type systems
+
+* Introduction to types
+* Type systems and type checking
+* Type inference
+* The Curry-Howard isomorphism
+  * Existence as proof
+* Algebraic data types
+* OOP features
+
+### Patterns and abstraction
+
+* Functors
+* Applicative functors
+* Monads
+
+### Generic programming in F\#
+
+* Types, classes and members
+* Interfaces
+* Constraints
+
+### Designing with types
+
+* Stating intent
+* Domain modeling
+* Algebraic types as conjunction and disjunction
+* Making invalid state unrepresentable
+
+### Domain Specific Languages
+
+* Combinators
+* HTML combinators
+
+### Reactive programming
+
+* Fable React
+* Fable Elmish
+
+## Mandatory assignments and exercises
+
+TBA
+
+### Practial information
+
+The primary programming environment used during the course will be:
+
+* F# 4.5
+* .NET Core 2.2
+* Visual Studio Code
+* Fable 2.1 and Elmish
+* Paket
+
+## Mandatory readings
+
+TBA
+
+## Recommended readings
+
+TBA
